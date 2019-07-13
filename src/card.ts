@@ -1,6 +1,7 @@
 import { IncomingMessage, ServerResponse } from "http";
 import { parseReqs } from "./parser";
 import { getHtml } from "./template";
+import { writeTempFile } from "./file";
 
 export default async function handler(
   req: IncomingMessage,
@@ -9,6 +10,13 @@ export default async function handler(
   try {
     const parsedReqs = parseReqs(req);
     const html = getHtml(parsedReqs);
+
+    const { title, author } = parsedReqs;
+    const fileName = [title, author].join("-");
+    const filePath = await writeTempFile(fileName, html);
+    const fileUrl = `file://${filePath}`;
+
+    console.log(fileUrl);
 
     res.statusCode = 200;
     res.setHeader("Content-Type", "text/html");
