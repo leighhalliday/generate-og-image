@@ -1,0 +1,20 @@
+{
+  "name": "generating-og-image",
+  "version": "1.0.0",
+  "description": "Generate an OG Image",
+  "main": "dist/card.js",
+  "scripts": {
+    "build": "tsc",
+    "now-build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chrome-aws-lambda": "1.18.1",
+    "puppeteer-core": "1.18.1"
+  },
+  "devDependencies": {
+    "@types/puppeteer-core": "1.9.0",
+    "typescript": "3.5.3"
+  }
+}
