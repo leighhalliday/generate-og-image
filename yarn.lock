@@ -51,10 +51,10 @@ buffer-from@^1.0.0:
   resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
   integrity sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
 
-chrome-aws-lambda@1.18.1:
-  version "1.18.1"
-  resolved "https://registry.yarnpkg.com/chrome-aws-lambda/-/chrome-aws-lambda-1.18.1.tgz#c622fe37b2ffe0cf77e50fdacd47361ddd8a2d18"
-  integrity sha512-bq17kJcklPE35qq954bOlHg8RcZvDnfRIjGNerkRXLL0FEqMXqIKYW6SY9/05cUZoYyv0BwQ3JkwtQEjawYWDg==
+chrome-aws-lambda@1.11.1:
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/chrome-aws-lambda/-/chrome-aws-lambda-1.11.1.tgz#550573204be27c6c5019a300cf72cde112eae9c3"
+  integrity sha512-qLAtxBlQHl1lx8A6ujsjEzSB/rT+3fIeko8pQmmNBquEmO5Clb1zg42SFcxFGoulbMVWFZmWftwcPedeSvOXEg==
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -235,10 +235,10 @@ proxy-from-env@^1.0.0:
   resolved "https://registry.yarnpkg.com/proxy-from-env/-/proxy-from-env-1.0.0.tgz#33c50398f70ea7eb96d21f7b817630a55791c7ee"
   integrity sha1-M8UDmPcOp+uW0h97gXYwpVeRx+4=
 
-puppeteer-core@1.18.1:
-  version "1.18.1"
-  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-1.18.1.tgz#37549e975273b7fa450e0f8a8023db6175ed049a"
-  integrity sha512-E/p4oIYnPZsCATQD5S6IKOBUnGG87h14OAXAmHjm+9SFIYLBUtY2AWg38Jfus9IjcAucnrYBv6A5372bte/S2g==
+puppeteer-core@1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-1.11.0.tgz#34ad606115f2b1299aeec3cf68cd0dc4e2f26aa9"
+  integrity sha512-JTsJKCQdrk1RqEGZN3l2TyW7Rhy7GWRRzd3PftYyA3B35l0t0lLU+gdF7czemnpSVVMiAgHpM1Uk/iO6jLreMA==
   dependencies:
     debug "^4.1.0"
     extract-zip "^1.6.6"
