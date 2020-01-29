@@ -10,11 +10,11 @@
   },
   "license": "MIT",
   "dependencies": {
-    "chrome-aws-lambda": "1.11.1",
-    "puppeteer-core": "1.11.0"
+    "chrome-aws-lambda": "2.0.2",
+    "puppeteer-core": "2.1.0"
   },
   "devDependencies": {
-    "@types/puppeteer-core": "1.9.0",
-    "typescript": "3.5.3"
+    "@types/puppeteer-core": "2.0.0",
+    "typescript": "3.7.5"
   }
 }
